@@ -13,9 +13,21 @@ variable "createby" {
   default = "masoudkaveh"
 }
 variable "web-servers" {
-  type    = list(string)
-  default = ["web1", "web2", "web3", "web4", "web5"]
+  type = list(string)
 }
 variable "key_name" {
+}
+variable "region" {
+  default = "us-east-1"
+}
+# variable "password" {
+#   type = string
+# }
+# variable "host" {
+
+# }
+variable "playbook_path" {
+  description = "/home/masoud/masoud/kuber-ansible/playbook.yaml"
+  default     = "/home/masoud/masoud/kuber-ansible/playbook.yaml"
 }
 

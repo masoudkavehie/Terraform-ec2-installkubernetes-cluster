@@ -52,7 +52,8 @@ resource "null_resource" "ansible_local" {
 
 # }
 # resource "aws_s3_bucket" "masoud3-bucket" {
-#   bucket = "my-tf-test-bucket"
+#   bucket = "my-tf-test-bucket"yes
+
 #   tags = {
 #     Name        = "My bucket"
 #     Environment = "Dev"
